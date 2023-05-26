@@ -1162,6 +1162,96 @@ switch (a) {
       i++;
      } while(i < 33);
  */
+     
+     
+     /* let codes = {
+  "49": "Germany",
+  "41": "Switzerland",
+  "44": "Great Britain",
+  "1": "USA"
+};
+
+for (let code in codes) {
+   document.write(code);
+} */
+
+/* let user = {name:'abn'};
+let admin = user;
+admin.name = 'Abdullah';
+document.write(user.name);
+document.write( '<br/>' + user.admin );
+document.write(  '<br/>' + user); */
+
+/* let user = {
+  name: "John",
+  age: 30
+};
+
+let clone = {};
+for (let key in user) {
+  clone[key] = user[key];
+}
+
+
+clone.name = "Pete"; 
+
+document.write( user.name );  */
+
+/* let user = { name: "John ," };
+
+let permissions1 = { canView: true };
+let permissions2 = { canEdit: true };
+
+
+Object.assign(user, permissions1, permissions2);
+
+
+document.write(user.name);
+document.write(user.canView); 
+  */
+
+
+ /*  let user = {
+  name: "ABN",
+  sizes: {
+    height:56,
+    width: 44
+  }
+};
+
+document.write( user.sizes.height );
+ */
+
+
+/*  let user = {
+  name: "ABN",
+  sizes: {
+    height: 112,
+    width: 90
+  }
+};
+
+let clone = Object.assign({}, user);
+
+document.write( user.sizes === clone.sizes ); 
+
+
+user.sizes.width = 60;    
+document.write(clone.sizes.width)  */ 
+
+/* let user = {
+  name: "ABN",
+  sizes: {
+    height: 172,
+    width: 80
+  }
+};
+
+let clone = structuredClone(user);
+
+document.write( user.sizes === clone.sizes ); 
+user.sizes.width = 70;    
+document.write(clone.sizes.width); */
 
          
 
