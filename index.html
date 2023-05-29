@@ -1252,6 +1252,638 @@ let clone = structuredClone(user);
 document.write( user.sizes === clone.sizes ); 
 user.sizes.width = 70;    
 document.write(clone.sizes.width); */
+     
+     
+     
+ /*  let user = {
+  name: "ABN",
+  sizes: {
+    height:56,
+    width: 44
+  }
+};
+
+document.write( user.sizes.height );
+ */
+
+
+/*  let user = {
+  name: "ABN",
+  sizes: {
+    height: 112,
+    width: 90
+  }
+};
+
+let clone = Object.assign({}, user);
+
+document.write( user.sizes === clone.sizes ); 
+
+
+user.sizes.width = 60;    
+document.write(clone.sizes.width)  */ 
+
+/* let user = {
+  name: "ABN",
+  sizes: {
+    height: 172,
+    width: 80
+  }
+};
+
+let clone = structuredClone(user);
+
+document.write( user.sizes === clone.sizes ); 
+user.sizes.width = 70;    
+document.write(clone.sizes.width); */
+
+/* let student1 ={
+   name:'Abdullah',
+   age:34,
+   gpa:3.34 ,
+   lang:[' Bangla ',' Hindi ',' Englis']
+}
+
+let student2 ={
+   name:'lah',
+   age:54,
+   gpa:3.34 ,
+   lang:[' Bangla ',' Hindi ',' Englis']
+}
+
+let student3 ={
+   name:'Abdul',
+   age:24,
+   gpa:3.34 ,
+   lang:[' Bangla ',' Hindi ',' Englis']
+}
+
+let student4 ={
+   name:'ullah',
+   age:14,
+   gpa:3.34 ,
+   lang:[' Bangla ',' Hindi ',' Englis']
+}
+document.write(student3.name); */
+
+/* 
+function Student(name,age,gpa,lang){
+   this.name =name;
+   this.age =age;
+   this.gpa = gpa;
+   this.lang = lang;
+
+}
+
+let student1 = new Student('Adbullah Bin Nasir',14, 3.34 ,[' Bangla ',' Hindi ',' English']);
+let student2 = new Student('Aull',14, 3.74 ,[' Bangla ',' Hindi ',' English']);
+let student3 = new Student('Aullah',14, 3.374 ,[' Bangla ',' Hindi ',' English']);
+let student4 = new Student('Aulla',14, 3.364 ,[' Bangla ',' Hindi ',' English']);
+
+document.write(student1.name);
+document.write(student1.age);
+document.write(student1.age);
+document.write(student1.lang);
+ */
+
+
+ 
+/* function Student(name,age,gpa,lang){
+   this.name =name;
+   this.age =age;
+   this.gpa = gpa;
+   this.lang = lang;
+
+   this.display = function(){
+      console.log(this.name);
+      console.log(this.age);
+      console.log(this.gpa);
+      console.log(this.lang);
+   }
+}
+let student1 = new Student('Adbullah Bin Nasir' ,14,  3.34 ,[' Bangla ',' Hindi ',' English']);
+let student2 = new Student('Aull',14, 3.74 ,[' Bangla ',' Hindi ',' English']);
+let student3 = new Student('Aullah',14, 3.374 ,[' Bangla ',' Hindi ',' English']);
+let student4 = new Student('Aulla',14, 3.364 ,[' Bangla ',' Hindi ',' English']);
+student1.display();
+student2.display();
+student3.display();
+student4.display();
+ */
+
+
+//  let math=  Math.sqrt(25);
+//  let math=  Math.abs(-25);
+//  let math=  Math.sin(2);
+//  let math=  Math.floor(2.5);
+//  let math=  Math.ceil(2.5);
+//  let math=  Math.pow(2,5);
+//  let math=  Math.round(2.5);
+//  let math=  Math.round(2.4);
+//  let math=  Math.max(25,35,354,-35,3999,-933);
+//  let math=  Math.min(25,44,-87,34);
+//  let math=  Math.sqrt(25);
+//  let math=  Math.random(25);
+//  let math=  Math.random() * 34;
+//  let math=  Math.floor(Math.random ()*25);
+// let math=  Math.floor(Math.random ()*25);
+
+//  console.log(math);
+
+
+/* let name= undefined;
+let text = 'missing';
+let result = name ?? text ;
+console.log(result);
+ */
+
+ /* let name= null;
+let text = 'missing';
+let result = name ?? text ;
+console.log(result);
+ */
+
+
+/*  let car ={
+   type:'fait',
+   model:'3434',
+   color:'red'
+ };
+ let name=car ?.name;
+ console.log(name)
+ */
+
+ /* let car ={
+   type:'fait',
+   model:'3434',
+   color:'red'
+ };
+ let type=car ?.type;
+ console.log(name) */
+
+ /* let day ;
+ switch(new Date().getDay()){
+   case 0:
+      day='Sunday';
+      break;
+   case 1:
+      day='Monday';
+      break;
+   case 2:
+      day='tuesday';
+      break;
+   case 3:
+      day='Wednesday';
+      break;   
+   case 4:
+      day='Thursday';
+      break;
+   case 5:
+      day='Friday';
+      break;
+   case 6:
+      day='Saturday';
+      break;
+
+ };
+
+ console.log(day);
+ */
+
+/*  let day ;
+ switch(new Date().getDay()){
+   case 1:
+      day='Sunday';
+      break;
+   case 2:
+      day='Monday';
+      break;
+   case 3:
+      day='tuesday';
+      break;
+   case 4:
+      day='Wednesday';
+      break;   
+   case 5:
+      day='Thursday';
+      break;
+   case 6:
+      day='Friday';
+      break;
+   case 0:
+      day='Saturday';
+ };
+
+ console.log(day);
+ */
+
+
+//  let din;
+//  switch (new Date().getDay()) {
+//   case 6:
+//     day = "Saturday";
+//     break;
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   default:
+//     day = "Weekend";
+// }
+// console.log(day);
+
+// let x = '0';
+// switch(x){
+//    case 0:
+//       text='off';
+//       break;
+//    case 1:
+//       text='on';
+//       break;
+//    case '0':
+//       text='type is ok';
+//       break;
+//    default:
+//       text='No value found';    
+// }
+// console.log(text);
+
+// let x = "0";
+
+// switch (x) {
+//   case 0:
+//     text = "Off";
+//     break;
+//   case 1:
+//     text = "On";
+//     break;
+//   case '0':
+//     text = "type is ok";
+//     break;
+//   default:
+//     text = "No value found";
+// }
+
+// console.log(text);
+
+
+/* JavaScript Loops=-=-=-=-=- */ 
+
+/* const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+} 
+document.write(text);
+
+ */
+
+/*  const gari =['BWM','Volvo','Saab','Ford','Fiat','Audi'];
+ let text = '';
+ for(let i=0; i< gari.length; i++){
+   text += gari[i] + '<br/>';
+ }
+ document.write(text); */
+
+ /* let text = "";
+
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+document.write(text);
+ */
+
+ /* let cars =['BWM','Volvo','Saab','Ford','Fiat','Audi'];
+ let i=0;
+ let leng=cars.length;
+ let text = '';
+ for(; i<leng;){
+   text += cars[i]+'<br/>';
+   i ++
+ }
+
+ document.write(text); */
+
+/*  let i = 454;
+ for(let i=0; i>=454; i++){
+  
+ }
+
+ document.write(i); 
+ */
+
+ /* =-=-=-=JavaScript For In */
+
+ /* const person = {
+   firstName:"John",
+   lastName:"Doe",
+   age:25
+};
+
+let text = '';
+ for(let abn in person){
+   text += person[abn] + '<br/>';
+ }
+ document.write(text);
+ */
+
+/*  const numbers = [34,53,54,23,87,387,];
+ let text = '';
+ for(let abn in numbers){
+   text += numbers[abn] + '<br/>';
+ }
+ document.write(text); */
+
+ /* const numbers = [34,53,344,323,534];
+ let text = '';
+ numbers.forEach(myFunction);
+ function myFunction(value, index, array){
+   // text += value + '<br/>';
+   // text += index + '<br/>';
+   text = array + '<br/>';
+ }
+ document.write(text);
+ */
+
+ /* const numbers = [34,53,344,323,534];
+ let text = '';
+ numbers.forEach(myFunction);
+ function myFunction(value, index, array){
+   text += value + '<br/>';
+  
+ }
+ document.write(text); */
+
+ /* const numbers = [34,53,344,323,534];
+ let text = '';
+ numbers.forEach(myFunction);
+ function myFunction(value, index, array){
+   
+   text += index + '<br/>';
+  ;
+ }
+ document.write(text); */
+
+ /* const numbers = [34,53,344,323,534];
+ let text = '';
+ numbers.forEach(myFunction);
+ function myFunction(value){
+   text += value + '<br/>';
+  
+ }
+ document.write(text); */
+
+ /* =--=-=-=JavaScript For Of */
+
+ /* const cars = ["BMW", "Volvo", "Mini","ABN"];
+ let text = '';
+ for (let abn of cars){
+   text += abn + '<br/>';
+ };
+ document.write(text); */
+
+ /* const cars = 'javascript';
+ let text = '';
+ for (let abn of cars){
+   text += abn + '<br/>';
+ };
+ document.write(text); */
+
+ /* let i = 0;
+ let text='';
+
+ while(i<10){
+   text +='The number is ' + i +'<br/>';
+   i ++
+ }
+ document.write(text);
+ */
+
+ /* let i = 0;
+ let text='';
+ do {
+   text +='The number is ' + i +'<br/>';
+   i ++
+ }
+ while(i<10)
+ document.write(text); */
+
+
+ /* -=-=-=-=-=-=  JavaScript Break and Continue */
+
+ /* let text='';
+ for (let i = 0;i < 10; i++){
+   if (i === 7){break;}
+   text += "The number is " + i + "<br>";
+}
+document.write(text); */
+
+/* let text='';
+ for (let i = 0;i < 10; i++){
+   if (i === 4){continue ;}
+   text += "The number is " + i + "<br>";
+}
+document.write(text); */
+ 
+
+/* const name = 'Abdullah';
+let text = '';
+
+for (const x of name){
+   text += x  + "<br>";
+}
+document.write(text); */
+
+/* const name = ['a','b','c'];
+let text = '';
+
+for (const x of name){
+   text += x  + "<br>";
+}
+document.write(text); */
+
+/* const fruits = new Map([
+  ["apples " , 500],
+  ["bananas " , 300],
+  ["oranges " , 200]
+]);
+
+let text = '';
+
+for (const x of fruits){
+   text += x  + "<br>";
+}
+document.write(text); */
+
+// let date = new Date ();
+
+// document.write(date);
+
+
+
+/* new Date()
+new Date(date string)
+
+new Date(year,month)
+new Date(year,month,day)
+new Date(year,month,day,hours)
+new Date(year,month,day,hours,minutes)
+new Date(year,month,day,hours,minutes,seconds)
+new Date(year,month,day,hours,minutes,seconds,ms)
+
+new Date(milliseconds) */
+ 
+// const d = new Date(2018, 11, 24);
+
+/* var monthg =Date.getDare();
+document.write(monthg); */
+
+
+/* const date = new Date();
+
+let milliseconds = date.getMilliseconds();
+let  second= date.getSeconds();
+let minutes = date.getMinutes();
+let hours = date.getHours();
+let day = date.getDay();
+let month = date.getMonth();
+let year = date.getFullYear();
+let time = date.getTimezoneOffset();
+
+
+
+console.log(milliseconds);
+console.log(second);
+console.log(minutes);
+console.log(hours);
+console.log(day);
+console.log(month);
+console.log(year);
+console.log(time);
+ */
+
+
+/*  const date = new Date();
+ console.log(date); */
+
+/*  const date = new Date("2022-03-25");
+ console.log(date); */
+
+/*  const date = new Date('October 13, 2023, 11:24:00');
+ console.log(date); */
+
+/* const date = new Date("2022-03-23");
+ console.log(date); */
+
+/* const date = new Date(2018, 11, 24, 10, 33, 30, 0);
+ console.log(date); */
+
+ /* const date = new Date (2018, 15, 24, 10, 33, 30);
+ console.log(date); */
+
+/*  const date = new Date (2018, 6, 5, 10, 33, 30);
+ console.log(date); */
+
+/*  const date = new Date (2018, 15, 24, 10, 33);
+ console.log(date); */
+
+/*  const date = new Date (2018, 15, 24, 10);
+ console.log(date); */
+
+ /* const date = new Date (2018, 15, 24, 10);
+ console.log(date); */
+
+/*  const date = new Date (2018, 15, 24);
+ console.log(date); */
+
+ /* const date = new Date (2018, 5);
+ console.log(date); */
+
+/*  const date = new Date (2018);
+ console.log(date);
+ */
+/*  const date = new Date (99,11,23);
+ console.log(date); */
+
+/*  const date = new Date(9, 11, 24);
+ console.log(date); */
+
+ /* const date = new Date(99, 11, 24);
+ console.log(date); */
+  
+/*  const date = new Date(100000000000);
+ console.log(date); */
+
+ /* const date = new Date(-100000000000);
+ console.log(date); */
+
+ /* const date = new Date(24 * 60 * 60 * 1000);
+ console.log(date); */
+
+/* const date = new Date (0);
+ console.log(date); */
+
+/* const date = new Date ();
+let dat = date.toString();
+ console.log(dat); */
+
+/*  const date = new Date ();
+let dat = date.toDateString();
+ console.log(dat); 
+
+ const d = new Date();
+ document.getElementById("demo").innerHTML = d.toDateString(); */
+
+ /* const date = new Date ();
+let dat = date.toUTCString();
+ console.log(dat); 
+
+ const d = new Date();
+ document.getElementById("demo").innerHTML = d.toUTCString();  */
+
+ /*  const date = new Date ();
+let dat = date.toISOString();
+ console.log(dat); 
+
+ const d = new Date();
+ document.getElementById("demo").innerHTML = d.toISOString();  */
+
+
+/*  const date = new Date ('2023-03');
+ console.log(date);
+ */
+
+/*  const date = new Date ('2023');
+ console.log(date); */
+
+/*  const date = new Date("2013-03-25T12:00:00Z");
+ console.log(date); */
+
+ 
+/* const date = new Date("2015-03-24T12:00:00-06:00");
+ console.log(date); */
+
+ /* const date = new Date("03/25/2015"); 
+ console.log(date); */
+
+/*  const date = new Date("2015-3-25");
+ console.log(date); */
+
+//  console.log(date);
+//  console.log(date);
+//  console.log(date);
+//  console.log(date);
+
+/*  console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ console.log(date);
+ */
 
          
 
